@@ -12,10 +12,8 @@
 	/>
 </svelte:head>
 
-<main class="w-screen h-screen bg-slate-900">
-	<header class="w-screen h-16 bg-slate-800 text-slate-200 flex items-center px-3">
-		<a href="/" rel="nofollow" class="text-2xl mx-3">Polar Post</a>
-		<RouteBar />
-	</header>
-	<slot />
-</main>
+<header class="w-screen h-16 bg-slate-800 text-slate-200 flex items-center px-3 sticky top-0">
+	<a href="/" rel="nofollow" class="text-2xl mx-3">Polar Post</a>
+	<RouteBar />
+</header>
+<slot />

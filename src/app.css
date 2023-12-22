@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.markdown > h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.markdown > h2 {
+  font-size: 2.25rem;
+  margin: .825rem;
+}
+
+.markdown > h3 {
+  font-size: 2rem;
+  margin: .75rem;
+}
+
+.markdown > h4 {
+  font-size: 1.75rem;
+  margin: .625rem;
+}
+
+.markdown > h5 {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.markdown > h6 {
+  font-size: 1.25rem;
+  margin: .375rem;
+}
+
+.markdown > strong {
+  font-weight: 700;
+}
+
+.markdown {
+  font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
